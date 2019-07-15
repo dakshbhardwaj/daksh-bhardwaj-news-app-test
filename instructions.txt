@@ -1,0 +1,30 @@
+For running the app.
+
+i) run npm install or yarn
+ii) navigate to the terminal and type expo start and then scan the qr code through expo app and app will be running.
+
+Going the native way :-
+
+react-native run android.
+
+i)Run Yarn install
+ii) create local.properties file in android folder .in local.properties paste your Android SDK path like below depending on which user are:-
+
+in Windows sdk.dir = C:/Users/USERNAME/AppData/Local/Android/sdk
+in macOS sdk.dir = /Users/USERNAME/Library/Android/sdk
+in linux sdk.dir = /home/USERNAME/Android/Sdk
+
+iii) start the development server in another tab do - yarn start.
+
+
+***** Library Used *******
+
+Redux -  for managing the app’s state
+React-Redux - to connect our app’s components to the redux store.
+Redux Thunk -  as a middleware for Redux .
+React Native Router Flux -  for our apps navigation,
+React Native Size Matters-  for scaling the size your apps UI across all the devices,
+Axios - for http calls
+
+*****
+

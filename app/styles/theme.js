@@ -9,28 +9,28 @@ const color = {
   light_grey: "#eaeaea",
   grey: "#ccc",
   red: "red",
-  underlayColor: "#ddd"
+  underlayColor: "#ddd",
 };
 
 const fontSize = {
-  small: normalize(12),
+  small: normalize(14),
   regular: normalize(14),
   large: normalize(21),
-  extralarge: normalize(28)
+  extralarge: normalize(28),
 };
 
 const helvetica = {
-//   bold: "HelveticaNeue-Bold",
-//   medium: "HelveticaNeue-Medium",
-//   regular: "Helvetica Neue",
-//   light: "HelveticaNeue-Light"
+  //   bold: "HelveticaNeue-Bold",
+  //   medium: "HelveticaNeue-Medium",
+  //   regular: "Helvetica Neue",
+  //   light: "HelveticaNeue-Light"
 };
 
 const fontFamily = helvetica;
 
 const imageOptions = {
   allowsEditing: false,
-  aspect: [4, 3]
+  aspect: [4, 3],
 };
 
 const padding = 8;
@@ -46,11 +46,11 @@ const navTitleStyle = {
   fontSize: fontSize.regular + 1,
   fontFamily: fontFamily.semibold,
   color: color.black,
-  letterSpacing: 0.4
+  letterSpacing: 0.4,
 };
 const navigationBarStyle = {
   backgroundColor: color.black,
-  borderBottomWidth: 0
+  borderBottomWidth: 0,
 };
 
 export {
@@ -65,5 +65,5 @@ export {
   navTitleStyle,
   navigationBarStyle,
   imageOptions,
-  normalize
+  normalize,
 };
